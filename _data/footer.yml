@@ -1,20 +1,20 @@
 - links:
-  - name: Pricing
-    link: /pricing/
+  - name: Science
+    link: /science/
+  - name: Experimental Design
+    link: /design/
+  - name: Team
+    link: /team/
   - name: Blog
     link: /blog/
-  - name: About
-    link: /about/
-  - name: Contact
-    link: /contact/
 - links:
-  - name: Login
+  - name: Data
     link: /
     new_window: true
-  - name: Sign Up
+  - name: Subscribe
     link: /
     new_window: true
-  - name: Docs
+  - name: Partners
     link: /
     new_window: true
   - name: Status

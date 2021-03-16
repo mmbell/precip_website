@@ -137,6 +137,25 @@ blockquote:before {
 	}
 }
 
+.logo-image {
+	width: 500px;
+	height: 500px;
+	overflow: hidden;
+	/* margin: 25px auto 0 auto; */
+	position: relative;
+	border-radius: 500px;
+
+	img {
+		position: absolute;
+		left: -1000%;
+		right: -1000%;
+		top: -1000%;
+		bottom: -1000%;
+		margin: auto;
+		width: 500px;
+	}
+}
+
 .page {
 	margin-bottom: 0;
 	padding-bottom: 80px;
