@@ -5,8 +5,8 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: _staff_members
-  label: Staff members
+  path: _team
+  label: Team
   create: all
   match: "**/*"
 - type: jekyll-posts
