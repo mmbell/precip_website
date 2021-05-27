@@ -1,8 +1,7 @@
 ---
 title: Our team
-description: >-
-  We've built an amazing, fantastic team of developers, marketers, designers and
-  sales people.
+heading: Principal Investigators
+description:
 ---
 
 <p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_staff_members/" class="btn"><strong>&#9998;</strong> Manage Staff members</a></p>
@@ -10,8 +9,22 @@ description: >-
 	{% for person in site.staff_members %}
 		<li>
 			<div class="square-image"><img src="{% include relative-src.html src=person.image_path %}" alt="{{ person.name }}"/></div>
-			<div class="name"><a target="_blank" href="https://twitter.com/{{ person.twitter }}">{{ person.name }}</a></div>
+			<div class="name"><a target="_blank" href="{{ person.website }}">{{ person.name }}</a></div>
 			<div class="position">{{ person.position }}</div>
 		</li>
 	{% endfor %}
+</ul>
+
+<div>
+<p>PRECIP is funded by the U.S National Science Foundation
+<img src="{{ site.baseurl }}/images/team/logo_nsf.png" alt="NSF logo" style="width:60px;height:60px;"/> </p>
+<ul>
+  <li style="font-size: 0.9em;">AGS-1854559, AGS-1854607, AGS-1854443, AGS-1854399, AGS-1854391, AGS-1712290.</li>
+</ul>
+</div>
+<p>PRECIP will be conducted in collaboration with international field campaigns:</p>
+<ul>
+  <li>Taiwan-area Atmospheric and Hydrological Observation and Prediction Experiment (TAHOPE)</li>
+  <li>Japanese Tropical cyclones-Pacific Asian Research Campaign for Improvement of Intensity estimations/forecasts (T-PARCII)</li>
+  <li>Korea Precipitation Observing Program (KPOP)</li>
 </ul>

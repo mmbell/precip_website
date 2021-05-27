@@ -1,12 +1,4 @@
 - links:
-  - name: Science
-    link: /science/
-  - name: Experiment-Design
-    link: /design/
-  - name: Team
-    link: /team/
-  - name: Blog
-    link: /blog/
   - name: Data
     link: /
     new_window: true
@@ -17,12 +9,8 @@
     link: /
     new_window: true
 - links:
-  - name: Facebook
-    link: https://facebook.com/cloudcannon/
-    new_window: true
-    social_icon: Facebook
   - name: Twitter
-    link: https://twitter.com/cloudcannon/
+    link: https://twitter.com/PRECIP2022/
     social_icon: Twitter
     new_window: true
   - name: YouTube
