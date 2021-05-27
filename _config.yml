@@ -9,16 +9,13 @@ google_maps_javascript_api_key:
 disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /siteicon.png
+logo: /images/PRECIP_raindrop.svg
 description: Product marketing template for Jekyll.
 author:
   name:
   email:
-  twitter: # twitter username without the @ symbol
-social:
-  name: Hydra Template
-  links:
-    - https://github.com/CloudCannon/hydra-jekyll-template
+  twitter: https://twitter.com/PRECIP2022
+
 
 # -----
 # Build
@@ -79,6 +76,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-gist
 
 exclude:
   - Gemfile

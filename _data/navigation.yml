@@ -2,8 +2,12 @@
   link: /science/
   new_window: false
   highlight: false
-- name: Experimental Design
+- name: Experiment-Design
   link: /design/
+  new_window: false
+  highlight: false
+- name: Resources
+  link: /resources/
   new_window: false
   highlight: false
 - name: Team
@@ -15,6 +19,6 @@
   new_window: false
   highlight: false
 - name: Data
-  link: /
-  new_window: true
+  link: /realtime/
+  new_window: false
   highlight: true

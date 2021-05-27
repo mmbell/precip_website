@@ -1,13 +1,12 @@
 - links:
   - name: Science
     link: /science/
-  - name: Experimental Design
+  - name: Experiment-Design
     link: /design/
   - name: Team
     link: /team/
   - name: Blog
     link: /blog/
-- links:
   - name: Data
     link: /
     new_window: true
@@ -15,9 +14,6 @@
     link: /
     new_window: true
   - name: Partners
-    link: /
-    new_window: true
-  - name: Status
     link: /
     new_window: true
 - links:
