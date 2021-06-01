@@ -1,9 +1,11 @@
 ---
-title: Our team
-heading: Principal Investigators
+title: PRECIP 2022 TEAM
+heading: Our Team
 description:
 ---
-
+<div style="text-align: center; padding: 20px 0 0 0" >
+	<p><u>Principal Investigators</u></p>
+</div>
 <p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_staff_members/" class="btn"><strong>&#9998;</strong> Manage Staff members</a></p>
 <ul class="staff">
 	{% for person in site.staff_members %}
@@ -15,16 +17,18 @@ description:
 	{% endfor %}
 </ul>
 
-<div>
-<p>PRECIP is funded by the U.S National Science Foundation
-<img src="{{ site.baseurl }}/images/team/logo_nsf.png" alt="NSF logo" style="width:60px;height:60px;"/> </p>
-<ul>
-  <li style="font-size: 0.9em;">AGS-1854559, AGS-1854607, AGS-1854443, AGS-1854399, AGS-1854391, AGS-1712290.</li>
-</ul>
-</div>
-<p>PRECIP will be conducted in collaboration with international field campaigns:</p>
-<ul>
-  <li>Taiwan-area Atmospheric and Hydrological Observation and Prediction Experiment (TAHOPE)</li>
-  <li>Japanese Tropical cyclones-Pacific Asian Research Campaign for Improvement of Intensity estimations/forecasts (T-PARCII)</li>
-  <li>Korea Precipitation Observing Program (KPOP)</li>
-</ul>
+<section style="padding: 20px 80px;">
+	<p>PRECIP is funded by the U.S National Science Foundation
+	<img src="{{ site.baseurl }}/images/team/logo_nsf.png" alt="NSF logo" style="width:60px;height:60px;"/> </p>
+	<ul>
+	  <li style="font-size: 0.9em;">AGS-1854559, AGS-1854607, AGS-1854443, AGS-1854399, AGS-1854391, AGS-1712290.</li>
+	</ul>
+	<p>PRECIP will collaborate with U.S. and international partners:</p>
+	<ul>
+		<li>NOAA Advancing the Prediction of Hurricanes Experiment West (APHEX-West)</li>
+		<li>ONR Tropical Cyclone Rapid Intensification (TCRI)</li>
+	  <li>Taiwan-area Atmospheric and Hydrological Observation and Prediction Experiment (TAHOPE)</li>
+	  <li>Japanese Tropical cyclones-Pacific Asian Research Campaign for Improvement of Intensity estimations/forecasts (T-PARCII)</li>
+	  <li>Korea Precipitation Observing Program (KPOP)</li>
+	</ul>
+</section>
