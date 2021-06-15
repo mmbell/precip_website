@@ -1,8 +1,8 @@
 ---
-date: 2020-07-20
-title: The process for direct sales
+date: 2021-06-10
+title: Educational Workshop
 categories:
-  - sales
+  - workshop
 author_staff_member: anna
 ---
 
@@ -10,6 +10,7 @@ Direct selling is the marketing and selling of products directly to consumers aw
 
 ![Checkmate](https://source.unsplash.com/random/1500x1145)
 
+# TITLE
 ## Textbook definition
 
 A textbook definition is: "The direct personal presentation, demonstration, and sale of products and services to consumers, usually in their homes or at their jobs."

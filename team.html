@@ -1,23 +1,29 @@
 ---
 title: PRECIP 2022 TEAM
-heading: PRECIP Science Team
+heading: PRECIP Funding Agencies and Science Team
 description:
 ---
-<div style="text-align: center; padding: 20px 0 0 0" >
-	<p><u>Funding Agencies</u></p>
+<div style="text-align: center; padding: 40px 0 0 0" >
+	<!-- <p><b>Funding Agencies</b></p> -->
+	<h1>Funding Agencies</h1>
+
+	<p>PRECIP is primarily funded by the US National Science Foundation. </p>
 </div>
-<p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_staff_members/" class="btn"><strong>&#9998;</strong> Manage Staff members</a></p>
+
 <ul class="staff">
-	{% for person in site.funding_agencies %}
 		<li>
-			<div class="square-image"><img src="{% include relative-src.html src=person.image_path %}" alt="{{ person.name }}"/></div>
-			<div class="name"><a target="_blank" href="{{ person.website }}">{{ person.name }}</a></div>
+			<div class="square-image"><img src="/images/team/logo_nsf.png" alt="NSF logo"/></div>
+			<div class="name"><a target="_blank" href="https://www.nsf.gov/">National Science Foundation</a></div>
 		</li>
-	{% endfor %}
+		<li>
+			<div class="square-image"><img src="/images/team/logo_noaa.png" alt="NOAA logo"/></div>
+			<div class="name"><a target="_blank" href="https://www.noaa.gov/">National Oceanic and Atmospheric Administration</a></div>
+		</li>
+
 </ul>
 
-<div style="text-align: center; padding: 20px 0 0 0" >
-	<p><u>Principal Investigators</u></p>
+<div style="text-align: center; padding: 40px 0 0 0" >
+	<h1>US Science Team</h1>
 </div>
 <p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_staff_members/" class="btn"><strong>&#9998;</strong> Manage Staff members</a></p>
 <ul class="staff">
@@ -30,13 +36,12 @@ description:
 	{% endfor %}
 </ul>
 
-<section style="padding: 20px 80px;">
-	<p>PRECIP is funded by the U.S National Science Foundation
-	<img src="{{ site.baseurl }}/images/team/logo_nsf.png" alt="NSF logo" style="width:60px;height:60px;"/> </p>
-	<ul>
-	  <li style="font-size: 0.9em;">AGS-1854559, AGS-1854607, AGS-1854443, AGS-1854399, AGS-1854391, AGS-1712290.</li>
-	</ul>
-	<p>PRECIP will collaborate with U.S. and international partners:</p>
+<section style="padding: 30px 80px;">
+	<div style="text-align: center; padding: 20px 0 0 0" >
+		  <h1>US and International Collaborators</h1>
+	</div>
+
+	<p>PRECIP will collaborate with US and international partners:</p>
 	<ul>
 		<li>NOAA Advancing the Prediction of Hurricanes Experiment West (APHEX-West)</li>
 		<li>ONR Tropical Cyclone Rapid Intensification (TCRI)</li>
