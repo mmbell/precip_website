@@ -1,8 +1,21 @@
 ---
 title: PRECIP 2022 TEAM
-heading: Our Team
+heading: PRECIP Science Team
 description:
 ---
+<div style="text-align: center; padding: 20px 0 0 0" >
+	<p><u>Funding Agencies</u></p>
+</div>
+<p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_staff_members/" class="btn"><strong>&#9998;</strong> Manage Staff members</a></p>
+<ul class="staff">
+	{% for person in site.funding_agencies %}
+		<li>
+			<div class="square-image"><img src="{% include relative-src.html src=person.image_path %}" alt="{{ person.name }}"/></div>
+			<div class="name"><a target="_blank" href="{{ person.website }}">{{ person.name }}</a></div>
+		</li>
+	{% endfor %}
+</ul>
+
 <div style="text-align: center; padding: 20px 0 0 0" >
 	<p><u>Principal Investigators</u></p>
 </div>
