@@ -10,7 +10,7 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /images/PRECIP_raindrop.svg
-description: Product marketing template for Jekyll.
+description: PRECIP (Prediction of Rainfall Campaign in the Pacific) 2022 Field Campaign Website.
 author:
   name:
   email:
